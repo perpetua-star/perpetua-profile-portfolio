@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}  
+  
+ body {
+background-color:white;
+text-align:center ;
+font-size: large;
+}
+
+header{
+    padding: 20px;
+    font-size : 24px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    margin-left: 25px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: large;
+}
+.logo{
+    color: #383838;
+    font-size: 28px;
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    min-height: 90vh;
+    background:linear-gradient(135deg,#c3c8d4,#c2cad8);
+    font: size large;
+}
+.hero-text h1{
+    font-size:50px ;
+
+}
+.hero-text span{
+    color:#38bdf8
+}
+.hero-text p{
+    margin: 20px 0;
+}
+.btn{
+    padding:12px 25px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 24px;
+}
+.hero-image{
+    width: 300px;
+    border-radius: 50%;
+    border:4px solid #48318b;
+}
+.About
+    padding::content
+    text-align:center
+
+
+
+.skills{
+    padding: 8%;
+    text-align:center;
+    background: #1e293b;
+    font-size: large;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: large;
+}
+.skill{
+    background: #082288;
+    color: black;
+    padding:10px 20px;
+    border-radius: 6px;
+    font-size: large;
+}
+.projects{
+    padding: 80px 8%;
+    text-align: center;
+    font-size: large;
+}
+.project-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    font-size: large;
+}
+.project-card{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: 0.03s;
+    font-size: large;
+
+}
+.project-card:hover{
+    transform: translateY(-10px);
+    background:white;
+}
+.contact{
+    padding: 80px 8%;
+    text-align: center;
+    background:white;
+    font-size: large;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background: white;
+    font-size: large;
+}
+   
